@@ -37,9 +37,7 @@ def get_this(this: int):
         "msg": "Failed to accomplish the task"
     }
     try:
-        temp=lib[this]
-        if (dict(temp).get("id")==this):
-            got=temp
+        got=lib[this]
     except:
         pass
         
